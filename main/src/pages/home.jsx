@@ -12,7 +12,7 @@ function Home(){
         <div id="bg" className='bg-black max-w-full h-max relative'>
             <Header/>
             <main className='relative z-50 py-20 px-12'>
-                <h1 className='text-4xl font-bold text-white pb-5'>Welcome!</h1>
+                <h1 className='text-4xl font-bold text-white pb-5'>Welcome!👋</h1>
                 <StartedCourse/>
                 <Navbar/>
                 <Calendar/>
