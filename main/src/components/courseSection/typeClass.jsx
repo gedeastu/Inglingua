@@ -24,6 +24,7 @@ export default function TypeClass(){
             Offline
         </label>
         </div>
+        <div>Hello world</div>
         {showElement === 'showOnline' && (
            <button id="started" className='w-[28rem] transition-all duration-300 h-max bg-gradient-to-r from-[#172A87] to-[#E05E0A] p-0.5 rounded-2xl overflow-hidden relative'>
            <div id="started" className='w-full bg-gradient-to-r from-[#010101] to-[#292929] text-center text-white text-xl font-semibold rounded-2xl py-3'>
