@@ -20,7 +20,7 @@ function Home(){
             <footer className='relative z-50'></footer>
             <div id="cirleblue" className='bg-[#172A87] h-72 w-72 absolute rounded-full blur-[10rem] top-0 left-0'>
             </div>
-            <div id="cirleblue" className='bg-[#D35A0B] h-72 w-72 absolute rounded-full blur-[10rem]  bottom-0 right-0'>
+            <div id="cirlered" className='bg-[#D35A0B] h-72 w-72 absolute rounded-full blur-[10rem]  bottom-0 right-0'>
             </div>
         </div>
         </>
