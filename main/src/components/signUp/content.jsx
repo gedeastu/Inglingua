@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import ilustrations from './img/ilustra.svg'
-import { useNavigate } from 'react-router-dom';
 import './content.css';
+import { useNavigate } from 'react-router-dom';
 const Content = () => {
   const Navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false)
   return (
     <>
-    <main className='mt-[19rem] flex flex-col gap-7'>
+    <main className='mt-[17rem] flex flex-col gap-7'>
       <div id="titleLogin" className='text-center'>
-        <h1 className='text-white font-bold text-4xl'>Log in</h1>
+        <h1 className='text-white font-bold text-4xl'>Sign Up</h1>
       </div>
       <form action="" className='flex flex-col items-center gap-3.5'>
         <input type="text" className='w-[27rem] text-white rounded-xl bg-transparent border-2 p-3' placeholder='Username'/>
+        <input type="email" className='w-[27rem] text-white rounded-xl bg-transparent border-2 p-3' placeholder='Alamat E-mail'/>
         <div className='w-[27rem] relative flex items-center'>
         <input type={showPassword ? 'text' : 'password'} className='w-full text-white rounded-xl bg-transparent border-2 p-3' placeholder='Password'/>
         <a onClick={()=>setShowPassword(!showPassword)} className='absolute right-5'>
@@ -23,11 +24,10 @@ const Content = () => {
         </div>
         <button onClick={()=>Navigate('/')} id="login" className='w-64 bg-gradient-to-r from-[#172A87] to-[#E05E0A] p-0.5 rounded-full overflow-hidden relative'>
         <h2 id="contentLogin" className='w-full bg-gradient-to-r from-[#010101] to-[#292929] text-center text-white text-xl font-semibold rounded-full py-3'>
-          Log in
+          Sign Up
         </h2>
         </button>
-        <a href="" className='text-white/40'>Lupa Password?</a>
-        <a href="" className='text-white/40'>Belum memiliki akun Inglingua</a>
+        <a href="" className='text-white/40'>Sudah memiliki akun Inglingua</a>
       </form>
     </main>
     </>
