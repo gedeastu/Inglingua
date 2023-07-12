@@ -18,6 +18,7 @@ export default function Datepicker(){
         <>
         <div className='relative z-50 flex flex-col mx-auto items-center gap-y-2 w-[28rem]'>
         <h1 className='font-semibold text-white mr-auto'>Tanggal Pelaksanaan</h1>
+        <div className='p-0.5 font-normal bg-gradient-to-r from-[#172A87] to-[#E05E0A] rounded-2xl border-none outline-none ring-0'>
         <DatePicker 
         selected={selectedDate} 
         onChange={handleDateChange}
@@ -28,8 +29,9 @@ export default function Datepicker(){
             <h2>{formatDate(date)}</h2>
           </div>
         )}
-        className='bg-black w-[28rem] mx-auto rounded-2xl text-white relative z-50 focus:outline-none focus:ring-0 focus:border-none'
+        className='bg-black w-[28rem] h-12 mx-auto rounded-2xl border-none text-white relative z-50 focus:outline-none focus:ring-0 focus:border-none'
         />
+        </div>
         </div>
         </>
     )
