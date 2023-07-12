@@ -1,6 +1,6 @@
 import './courseSection.css';
 import Header from '../components/courseSection/header'
-import TypeClass from '../components/courseSection/typeClass'
+import TypeClass from '../components/courseSection/tipeClass'
 export default function CourseSection(){
     return(
       <>
