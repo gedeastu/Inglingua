@@ -22,7 +22,7 @@ export default function Datepicker(){
         <DatePicker 
         selected={selectedDate} 
         onChange={handleDateChange}
-        placeholderText="Select a date"
+        placeholderText="Pilih Tanggal Pelaksanaan"
         dateFormat="MMMM d, yyyy"
         renderCustomHeader={({ date }) => (
           <div>
