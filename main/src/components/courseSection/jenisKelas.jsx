@@ -11,8 +11,8 @@ export default function JenisKelas(){
         <select id='dropdownJenisKelas' className='text-white bg-black rounded-2xl w-full h-full text-left pl-5 font-normal border-none focus:outline-none focus:ring-0'>
         <option value="" selected disabled>Pilih Kelas</option>
         <option value="option1" >Kelas Satuan (One Shot)</option>
-        <option value="option2">Intermediate</option>
-        <option value="option3">Advanced</option>
+        <option value="option2">Kelas Mingguan (Week Shot)</option>
+        <option value="option3">Kelas Lanjutan (As you need)</option>
         </select>
         </div>
         </div>
