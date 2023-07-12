@@ -1,6 +1,9 @@
-#dropdownJenisKelas{
-    -webkit-appearance: none; 
-    -moz-appearance: none; 
-    appearance: none;
-
-}
+/* Style to hide the spin buttons */
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+  }

@@ -1,6 +1,8 @@
-#dropdownJenisKelas{
-    -webkit-appearance: none; 
-    -moz-appearance: none; 
-    appearance: none;
-
-}
+/* Hide the default time input arrow icon */
+ input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  /* Remove the default time input arrow icon in Firefox */
+  input[type="time"] {
+    -moz-appearance: textfield;
+  }
