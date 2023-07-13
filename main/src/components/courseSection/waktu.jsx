@@ -17,9 +17,9 @@ export default function Waktu(){
         <h1 className='font-semibold text-white mr-auto'>Waktu Pelaksanaan</h1>
         <div id="waktu" className='relative p-0.5 flex items-center w-full h-[3.3rem] mx-auto rounded-2xl bg-gradient-to-r from-[#172A87] to-[#E05E0A]'>
         <div className='flex flex-row items-center gap-3 text-white bg-black rounded-2xl w-full h-full text-left px-5 font-normal border-none focus:outline-none focus:ring-0'>
-        <input type='time' value={selectedFirstTime} onChange={handleFirstTimeChange} className='bg-transparent rounded-xl text-center border-none px-0 py-2 focus:border'/>
-        <p className='text-white'>Hingga</p>
-        <input type='time' value={selectedSecondTime} onChange={handleSecondTimeChange} className='bg-transparent rounded-xl text-center border-none px-0 py-2 focus:border'/>
+        <input id='time' type='time' value={selectedFirstTime} onChange={handleFirstTimeChange} className='bg-transparent rounded-xl text-center border-none px-0 py-2 focus:border'/>
+        <label htmlFor='time' className='text-white'>Hingga</label>
+        <input id='time' type='time' value={selectedSecondTime} onChange={handleSecondTimeChange} className='bg-transparent rounded-xl text-center border-none px-0 py-2 focus:border'/>
         </div>
         </div>
         </div>
