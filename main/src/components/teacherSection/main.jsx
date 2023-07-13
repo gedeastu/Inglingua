@@ -12,7 +12,9 @@ export default function Main(){
         <div>
            {
             elements.map((elements, index)=>(
-                {elements}
+                <div key={index}>
+                    {elements}
+                </div>
             ))} 
         </div>
         </>
