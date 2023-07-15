@@ -17,7 +17,13 @@ function Home(){
                 <Navbar/>
                 <Calendar/>
             </main>
-            <footer className='relative z-50'></footer>
+            {/* <footer className='relative z-50 text-center text-white bg-blue-500 w-40 mx-auto'> */}
+                {/* <input type="checkbox" className='absolute peer peer:transition w-full right-0 h-6 opacity-0'/> */}
+
+                <input type="checkbox" className='peer absolute w-full right-0 opacity-0'/>
+                <h1 className=''>Click Me</h1>
+                <h2 className='hidden peer-checked:flex transition peer:transition-all peer-disabled:hidden'>Hello World</h2>
+            {/* </footer> */}
             <div id="cirleblue" className='bg-[#172A87] h-72 w-72 absolute rounded-full blur-[10rem] top-0 left-0'>
             </div>
             <div id="cirlered" className='bg-[#D35A0B] h-72 w-72 absolute rounded-full blur-[10rem]  bottom-0 right-0'>

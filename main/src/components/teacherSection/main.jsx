@@ -7,7 +7,7 @@ export default function Main(){
     const ListTeacher = () => {
         return(
             <>
-            <div className='relative cursor-pointer flex p-1 flex-col mx-auto items-center rounded-2xl gap-y-2 w-[28rem] group'>
+            <button className='relative cursor-pointer flex p-1 flex-col mx-auto items-center rounded-2xl gap-y-2 w-[28rem] group'>
             <input id='Teacher' type="radio" value="showTeacher" name='radio' className='hidden' checked={showElement === 'showOnline'} onClick={handleChange}/>
             <label htmlFor='Teacher' className='cursor-pointer  relative z-50 p-0.5 flex items-center w-full h-[9.5rem] mx-auto shadow-lg rounded-2xl bg-gradient-to-r from-[#172A87] to-[#E05E0A] group-focus:shadow-[#1B2C85] group-focus:transition-all'>
             <div className="bg-black w-full h-full rounded-2xl px-5 py-3">
@@ -36,7 +36,7 @@ export default function Main(){
             </main>
             </div>
             </label>
-            </div>
+            </button>
             </>
         )
     }
